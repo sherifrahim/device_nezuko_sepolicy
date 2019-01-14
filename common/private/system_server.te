@@ -11,3 +11,4 @@ allow system_server pocket_judge_sysfs:file rw_file_perms;
 allow system_server pocket_service:service_manager { add find };
 
 hal_client_domain(system_server, hal_lineage_powershare)
+hal_client_domain(system_server, hal_lineage_touch)
