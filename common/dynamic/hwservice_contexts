@@ -2,4 +2,5 @@ vendor.lineage.biometrics.fingerprint.inscreen::IFingerprintInscreen    u:object
 vendor.lineage.camera.motor::ICameraMotor                               u:object_r:hal_lineage_camera_motor_hwservice:s0
 vendor.lineage.fastcharge::IFastCharge                                  u:object_r:hal_lineage_fastcharge_hwservice:s0
 vendor.lineage.power::ILineagePower                                     u:object_r:hal_power_hwservice:s0
+vendor.lineage.livedisplay::IAntiFlicker                                u:object_r:hal_lineage_livedisplay_hwservice:s0
 vendor.lineage.touch::IKeySwapper                                       u:object_r:hal_lineage_touch_hwservice:s0
