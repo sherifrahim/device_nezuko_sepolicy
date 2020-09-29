@@ -23,8 +23,7 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
 
 ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/fluid/sepolicy/common/dynamic \
-    device/fluid/sepolicy/common/system
+    device/fluid/sepolicy/common/dynamic
 else
 BOARD_VENDOR_SEPOLICY_DIRS += \
     device/fluid/sepolicy/common/dynamic \
