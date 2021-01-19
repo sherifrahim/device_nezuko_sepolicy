@@ -21,3 +21,5 @@ set_prop(system_app, recovery_update_prop)
 # Allow theme_prop to be read and set by Settings
 get_prop(system_app, theme_prop)
 set_prop(system_app, theme_prop)
+
+hal_client_domain(system_app, hal_lineage_touch)
